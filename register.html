@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register - AFTERCOM</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="register-container">
+        <div class="register-form">
+            <h2>Register</h2>
+            <form action="register_user.php" method="post">
+                <label for="name">Nama:</label>
+                <input type="name" id="name" name="name" required><br>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required><br>
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" required><br>
+                <label for="password">Password:</label>
+                <input type="password" id="password" name="password" required><br>
+                <label for="confirm_password">Confirm Password:</label>
+                <input type="password" id="confirm_password" name="confirm_password" required><br>
+                <label for="phone_number">No. Phone:</label>
+                <input type="text" id="phone_number" name="phone_number" required><br>
+                <label for="alamat">Alamat:</label>
+                <textarea id="alamat" name="alamat" required></textarea><br>
+                <label for="role">Role:</label>
+                <select id="role" name="role" required>
+                    <option value="customer">Customer</option>
+                </select><br>
+                <button type="submit">Register</button>
+            </form>
+            
+        </div>
+        <div class="login-redirect">
+            <h2>Selamat Datang Kembali!</h2>
+            <p>Anda sudah memiliki akun? Klik "Login" di bawah ini</p>
+            <button onclick="location.href='login.php'">Login</button>
+        </div>
+    </div>
+</body>
+</html>

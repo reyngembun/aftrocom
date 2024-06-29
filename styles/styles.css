@@ -1,0 +1,97 @@
+/* styles/styles.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.register-container {
+    display: flex;
+    height: 100vh;
+}
+
+.register-form, .login-redirect {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.register-form {
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.register-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+}
+
+.register-form form {
+    width: 100%;
+    max-width: 300px;
+}
+
+.register-form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+.register-form input, .register-form textarea, .register-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.register-form button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #c9302c;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.register-form button:hover {
+    background-color: #c9302c;
+}
+
+.login-redirect {
+    background-color: #c9302c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+.login-redirect h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.login-redirect p {
+    margin-bottom: 20px;
+}
+
+.login-redirect button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #343a40;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.login-redirect button:hover {
+    background-color: #23272b;
+}

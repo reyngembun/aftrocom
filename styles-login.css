@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.welcome-section, .login-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.welcome-section {
+    background-color: #d63031;
+    color: white;
+    text-align: center;
+}
+
+.welcome-section h2 {
+    margin: 0;
+    font-size: 2em;
+}
+
+.welcome-section p {
+    margin: 20px 0;
+}
+
+.welcome-section button {
+    background-color: #343a40;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.welcome-section button:hover {
+    background-color: #23272b;
+}
+
+.login-section {
+    background-color: #ffffff;
+    color: #333;
+    text-align: center;
+}
+
+.login-section h2 {
+    margin: 0 0 20px;
+    font-size: 2em;
+}
+
+.login-section form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-section label {
+    align-self: flex-start;
+    margin-left: 20%;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.login-section input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-section button {
+    background-color: #d63031;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+
+.login-section p {
+    margin: 20px 0 10px;
+    font-size: 1em;
+}
+
+.social-login {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.social-login img {
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}

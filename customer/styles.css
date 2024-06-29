@@ -1,0 +1,42 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    margin: 0;
+}
+
+.timeline {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.event {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.event .icon img {
+    width: 40px;
+    height: 40px;
+    margin-right: 20px;
+}
+
+.event .date-time {
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.event .status {
+    flex: 1;
+}
+
+.event .check img {
+    width: 24px;
+    height: 24px;
+}
